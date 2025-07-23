@@ -8,6 +8,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
+    z-index: 999 !important;
 }
 .navbar-top {
     top: 0;
@@ -34,6 +35,7 @@
 .titulo-container {
     text-align: center;
     position: relative;
+    z-index: 999 !important;
 }
 
 .titulo-container h1::before,
@@ -44,4 +46,16 @@
     height: 2px;
     background-color: white;
     margin: 20px auto;
+    z-index: 999 !important;
+}
+
+.blur-green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%; 
+    background: linear-gradient(to bottom, #131F1D, rgba(0, 128, 0, 0));
+    pointer-events: none;
+    z-index: 1;
 }
