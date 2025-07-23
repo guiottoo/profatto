@@ -15,3 +15,9 @@
     "wdth" 100;
 }
 
+.anek-telugu-regular {
+    font-family: "Anek Telugu", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
