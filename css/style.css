@@ -13,7 +13,7 @@
     top: 0;
 }
 .navbar-menu {
-    top: 56px; /* ajuste conforme a altura da navbar-top */
+    top: 56px; 
 }
 
 .carousel-indicators [data-bs-target] {
@@ -29,4 +29,19 @@
 .carousel-indicators .active {
     opacity: 1;
     background-color: #333;
+}
+
+.titulo-container {
+    text-align: center;
+    position: relative;
+}
+
+.titulo-container h1::before,
+.titulo-container h1::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
 }
