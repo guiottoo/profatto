@@ -43,7 +43,7 @@
     content: "";
     display: block;
     width: 30%;
-    height: 2px;
+    height: 1px;
     background-color: white;
     margin: 20px auto;
     z-index: 999 !important;
