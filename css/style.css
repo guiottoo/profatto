@@ -59,3 +59,24 @@
     pointer-events: none;
     z-index: 1;
 }
+
+.bi-whatsapp {
+    color: #8B941F !important;
+    gap: 0 !important;
+    background-color: #fff !important;
+    padding: 2px !important;
+    border-radius: 50%;
+}
+
+.bi {
+    color: #fff;
+    gap: 5px;
+    background-color: #8B941F;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.btn-contato {
+    background-color: #8B941F !important;
+    color: white !important;
+}
