@@ -38,8 +38,8 @@
     z-index: 999 !important;
 }
 
-.titulo-container h1::before,
-.titulo-container h1::after {
+.titulo-container h2::before,
+.titulo-container h2::after {
     content: "";
     display: block;
     width: 30%;
