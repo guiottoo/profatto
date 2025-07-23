@@ -12,13 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
-    <!-- Primeira navbar (topo) -->
     <nav class="navbar navbar-expand-lg navbar-top bg-transparent">
         <div class="container navbar-collapse mx-5">
-            <a class="navbar-brand logo" href="#"><img src="imgs/logo_profatto_BCO_SEM_FUNDO 1.png" alt="logo ProFatto"></a>
+            <a class="navbar-brand logo" href="#">Pro<strong>Fatto</strong></a>
             <div class="d-flex align-items-center">
                 <span class="text-white me-3">
                     <i class="bi bi-whatsapp"></i> (48) 3207-2222
@@ -34,7 +33,6 @@
         </div>
     </nav>
     
-    <!-- Segunda navbar (menu) -->
     <nav class="navbar navbar-expand-lg navbar-menu bg-transparent">
         <div class="container mx-5">
             <div class="collapse navbar-collapse show">
@@ -51,6 +49,26 @@
         </div>
     </nav>
 
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/Ambiente_VEU DE NOIVA WH POL 80X160 RET 1.png" class="d-block w-100" style="height: 70vh; object-fit: cover;" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.jpg" class="d-block w-100" style="height: 100vh; object-fit: cover;" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.jpg" class="d-block w-100" style="height: 100vh; object-fit: cover;" alt="Slide 3">
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
