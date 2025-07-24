@@ -82,11 +82,11 @@
 }
 
 .highlight {
-    color: #819018;
+    color: #8B941F;
 }
 
 .circle-number {
-    background-color: #819018;
+    background-color: #8B941F;
     color: white;
     width: 50px;
     height: 50px;
@@ -103,6 +103,11 @@
 .underline {
     width: 80px;
     height: 3px;
-    background-color: #819018;
+    background-color: #8B941F;
     margin: 0 auto 30px;
+}
+
+.sobre {
+    border-bottom: 2px solid #8B941F;
+    width: 150px;
 }
