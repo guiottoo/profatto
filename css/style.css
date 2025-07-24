@@ -101,8 +101,8 @@
 }
 
 .underline {
-    width: 80px;
-    height: 3px;
+    width: 20%;
+    height: 2px;
     background-color: #8B941F;
     margin: 0 auto 30px;
 }
