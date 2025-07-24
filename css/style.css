@@ -61,19 +61,22 @@
 }
 
 .bi-whatsapp {
-    color: #8B941F !important;
     gap: 0 !important;
-    background-color: #fff !important;
-    padding: 2px !important;
-    border-radius: 50%;
+    color: white !important;
+    background-color: transparent !important;
 }
 
 .bi {
     color: #fff;
-    gap: 5px;
     background-color: #8B941F;
-    padding: 5px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
+    gap: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-contato {
@@ -110,4 +113,10 @@
 .sobre {
     border-bottom: 2px solid #8B941F;
     width: 150px;
+}
+
+
+
+.btn-dark {
+    background-color: #092820 !important;
 }

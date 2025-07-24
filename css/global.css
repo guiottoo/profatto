@@ -12,6 +12,15 @@ a {
     color: white !important;
 }
 
+input::placeholder {
+    color: #8B941F !important;
+    font-size: 0.8em !important;
+}
+
+footer {
+    background-color: #092820 !important;
+}
+
 .anek-telugu-regular {
     font-family: "Anek Telugu", sans-serif !important;
     font-optical-sizing: auto;
