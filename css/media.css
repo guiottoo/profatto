@@ -1,5 +1,15 @@
-@media (max-width: 991.98px) {
-    .navbar-menu {
-    top: 112px;
+@media (min-width: 992px) {
+    #navbarNav {
+        background-color: transparent !important;
     }
+}
+
+@media (max-width: 991.98px) {
+    #navbarNav {
+        background-color: #8B941F !important;
+    }
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(19%) saturate(559%) hue-rotate(36deg) brightness(96%) contrast(85%);
 }
