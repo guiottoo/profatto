@@ -80,3 +80,29 @@
     background-color: #8B941F !important;
     color: white !important;
 }
+
+.highlight {
+    color: #819018;
+}
+
+.circle-number {
+    background-color: #819018;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.underline {
+    width: 80px;
+    height: 3px;
+    background-color: #819018;
+    margin: 0 auto 30px;
+}
